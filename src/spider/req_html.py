@@ -5,11 +5,10 @@
 """
 import os
 import subprocess
-import time
 
 from src.config import Config
 
-for page in range(55, 75):
+for page in range(0, 75):
     file_path = os.path.join(Config.HTML_DIR, f"pages/page_{page}.html")
     result = subprocess.run(
         ["curl", f"https://coolshell.cn/page/{page}"],
@@ -19,4 +18,4 @@ for page in range(55, 75):
     output = result.stdout.decode("utf-8")
     with open(file_path, "w", encoding="utf-8") as fp:
         fp.write(output)
-    # time.sleep(1)
+    time.sleep(1)
