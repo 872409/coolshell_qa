@@ -4,7 +4,7 @@
 
 酷壳 - [CoolShell](https://coolshell.cn/) 是由[陈皓](https://github.com/haoel)（左耳朵耗子）创办的，是一个关于编程、技术、管理等方面的博客。它以深入浅出的方式介绍了很多有趣的技术和知识，深受广大程序员和技术爱好者的喜爱。
 
-本项目功能如下：
+本项目仅针对博客备份&QA问答查询，功能如下：
 
 - 留个念想，对 [CoolShell](https://coolshell.cn/) 博客的 `740` 篇文章做一个备份
 - 基于  `ChatGPT` 实现博客问答机器人
@@ -26,5 +26,7 @@
 ```
 
 ## 说明
+
+本项目仅仅只针对博客做备份，QA 也仅仅是为了方便搜索目标内容，本项目永远不会获取**左耳朵耗子**其微博&推特等非技术化的信息形成聊天人格（个人无法接受）
 
 文章部分数据来源感谢 [forever-coolshell](https://github.com/soulteary/forever-coolshell) 项目。
