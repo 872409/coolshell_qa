@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.douban.com/simple/"
+
+[packages]
+ruia = "*"
+ruia-ua = "*"
+readability-lxml = "*"
+html2text = "*"
+openai = "*"
+qdrant-client = "*"
+flask = "*"
+
+[dev-packages]
+black = "*"
+pylint = "*"
+isort = "*"
+pytest = "*"
+
+[scripts]
+
+[requires]
+python_version = "3.9"

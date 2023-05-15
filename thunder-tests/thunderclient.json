@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "17ef7e13-ea24-403e-b9cc-fdc8855d7670",
+    "colId": "13be7bf8-1f17-4cea-a5e8-e452843294a1",
+    "containerId": "",
+    "name": "qa",
+    "url": "{{local_api}}/qa",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-05-15T12:40:04.518Z",
+    "modified": "2023-05-15T12:41:10.600Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"text\": \"你好，做个自我介绍吧\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "f357e0cc-9625-440c-a66f-f51b081312e5",
+    "name": "(Global Env)",
+    "default": false,
+    "global": true,
+    "sortNum": -2,
+    "created": "2023-05-15T12:39:11.281Z",
+    "modified": "2023-05-15T12:39:11.281Z",
+    "data": [
+      {
+        "name": "local_api",
+        "value": "http://127.0.0.1:5000"
+      }
+    ]
+  }
+]
